@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+}
+
+/* -----------------------------------------------Navigation Bar------------------------------------------ */
+.navigation-bar{
+    height: 39px;
+    width: 100%;
+    
+    /* background-color: aquamarine; */
+    font-family: 'Rowdies', cursive;
+}
+.logo{
+    
+    display: inline;
+    position:relative;
+    left:130px;
+    top:10px;
+}
+.home{
+    display: inline;
+    position:relative;
+    left:60rem;
+    font-size: 24px;
+}
+.work{
+    display: inline;
+    position:relative;
+    left:62rem;
+    font-size: 24px;
+}
+.resources{
+    display: inline;
+    position:relative;
+    left:64rem;
+    font-size: 24px;
+}
+.about{
+    display: inline;
+    position:relative;
+    left:66rem;
+    font-size: 24px;
+}
+
+/* ---------------------------------------Conatainer - 1 ------------------------------------- */
+.container-1{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+.matt-ward{
+    height: 800px;
+    float:right;
+}
+.howdy{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 9em;
+    position: absolute;
+    top: 1.8em;
+    left: 200px;
+    margin: 0 auto;
+}
+.Matt{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 8em;
+    position: absolute;
+    top: 3.2em;
+    left: 200px;
+    margin: 0 auto;   
+}
+.para{
+    position: absolute;
+    top: 28.200000000000003em;
+    left: 200px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    word-spacing: 6px 
+}
+
+/* ---------------------------------------Conatainer - 2 ------------------------------------- */
+.container-2{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(61, 155, 233);
+    color: aliceblue;
+}
+.text-img{
+    height: 850px;
+    /* position: relative;
+    top: 1em;
+    left: 47em */
+    float: right;
+}
+.Mentors{
+    margin-top: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 5em;
+    position: absolute;
+    top: 15.8em;
+    left: 190px;
+    line-height: 0.9;
+}
+.para2{
+    position: absolute;
+    top: 74.2em;
+    left: 198px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    word-spacing: 6px;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 28em;
+    left: 9em
+  }
+  
+  .btn:hover {
+    background: #747a7d;
+    text-decoration: none;
+  }
+
+/* ---------------------------------------Conatainer - 3 ------------------------------------- */
+.container-3{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(52, 190, 109);
+    color: aliceblue;
+    /* position: relative; */
+}
+.skillshare{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 5em;
+    position: absolute;
+    right: 4em;
+    top: 27em;
+    line-height: 0.9;
+}
+.para3{
+    position: absolute;
+    top: 121.19em;
+    right: 190px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    word-spacing: 6px
+}
+
+/* ---------------------------------------Conatainer - 4 ------------------------------------- */
+.container-4{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(255, 148, 82);
+    color: aliceblue;
+    /* position: relative; */
+}
+.design{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 5em;
+    position: absolute;
+    left: 2.5em;
+    top: 38em;
+    line-height: 0.9;
+}
+.para4{
+    position: absolute;
+    top: 167em;
+    left: 208px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    word-spacing: 6px
+}
+
+/* ---------------------------------------Conatainer - 5 ------------------------------------- */
+.container-5{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(254, 224, 27);
+    color: black;
+    /* position: relative; */
+}
+.portfolio{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 5em;
+    position: absolute;
+    right: 4em;
+    top: 50em;
+    line-height: 0.9;
+}
+.para5{
+    position: absolute;
+    top: 216.19em;
+    right: 264px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    word-spacing: 2px;
+}
+
+/* ---------------------------------------Footer------------------------------------- */
+.footer{
+    height: 170px;
+}
+.logo2{
+    margin-top: 60px;
+    margin-left: 300px;
+}
+.fa {
+    padding: 5px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+    
+ }
+
+.fa-instagram {
+  background: black;
+  color: white;
+  font-size: 20px;
+  margin-left: 400px ;
+  
+  }
+  .fa-linkedin {
+    background: black;
+    color: white;
+    font-size: 20px;
+   
+  }	
